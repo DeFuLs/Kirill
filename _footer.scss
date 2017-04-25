@@ -1,0 +1,17 @@
+.test {
+    font: $common-font;
+  border: $border;
+  color: $main-color;
+
+}
+
+.test-footer {
+  color: blue;
+  @extend .test;
+  
+  .item {
+    @extend %center-block;
+  }
+
+
+}
